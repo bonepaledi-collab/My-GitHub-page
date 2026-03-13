@@ -1,5 +1,8 @@
 
-     body{
+     selector{
+        property:value;
+ }
+body{
     font-family:Arial, sans-serif;
     color:#333;
     background-color:#f9f9f9;
@@ -8,7 +11,7 @@
     line-height:1.6;
 }
 header{
-    background-color:#4CAF50;
+    background-color:#af4c8e;
     color:white;
     padding:0;
     text-align:center;
@@ -17,7 +20,7 @@ header h1{
     margin:0;
 }
 nav a{
-    color:white;
+    color:rgb(255, 255, 255);
     text-decoration:none;
     margin:0 10px;
 }
@@ -48,7 +51,7 @@ p{
     font-size:1.1em;
 }
 a{
-    color:#4CAF50;
+    color:#af4c8e;
     text-decoration:none;
 }
 a:hover{
