@@ -33,7 +33,7 @@ body.dark-mode nav { background-color: #222222; }
 #theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
 
     font-family:Arial, sans-serif;
-    color:#333;
+    color:#333333;
     background-color:#f9f9f9;
     margin:0;
     padding:0;
@@ -93,6 +93,24 @@ img{
 main a[href^="maito:"] {
     color:#ff5722;
     font-weight:bold;
+}#typing-headline { 
+
+    min-height: 80px; 
+
+    border-right: 3px solid # display: inline-block; 
+
+    animation: blink 0.75s step-end infinite; 
+
+} 
+
+@keyframes blink { 
+
+    from, to { border-color: transparent; } 
+
+    50% { border-color: #4CAF50; } 
 }
+
+
+
 
 
