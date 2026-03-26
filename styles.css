@@ -2,7 +2,36 @@
      selector{
         property:value;
  }
-body{
+/* FIND your existing body {} block and add transition: */ 
+
+body { 
+
+    font-family: Arial, sans-serif;  /* already there */ 
+
+    background-color: #ffffff;       /* already there */ 
+
+    color: #333;                     /* already there */ 
+
+    transition: background-color 0.3s, color 0.3s;  /* ADD THIS LINE */ 
+
+} 
+
+ 
+
+/* Then paste these NEW blocks at the BOTTOM of styles.css */ 
+
+body.dark-mode { 
+
+    background-color: #333333; 
+
+    color: #f9f9f9; 
+
+} 
+
+body.dark-mode nav { background-color: #222222; } 
+
+#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
+
     font-family:Arial, sans-serif;
     color:#333;
     background-color:#f9f9f9;
